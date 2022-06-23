@@ -1,0 +1,43 @@
+#container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 35vw;
+}
+
+#font_h1 {
+    font-size: 4rem;
+}
+
+#demo {
+    font-size: 5rem;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 5vh;
+}
+
+.btn {
+    width: 9vw;
+    height: 6vh;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    font-size: 1.7rem;
+    background-color: grey;
+}
+
+#increase {
+    background-color: green;
+}
+
+#decrease {
+    background-color: red;
+}
