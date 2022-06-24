@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    background-color: rgb(94, 91, 91);
+    border: 2px solid black;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+}
+
+.img {
+    width: 3.8vw;
+    margin-left: 0px;
+}
+
+.list {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: 25vw;
+    list-style: none;
+    margin-left: -69vw;
+}
+
+li {
+    font-size: 25px;
+}
+
+.list li a {
+    color: white;
+}
+
