@@ -27,10 +27,19 @@
             <h2>background color : <span class="color">
                 #f1f5f8
             </span></h2>
+            <button onclick="myfunction()" class="btn btn-hero" id="btn">Click me</button>
+            <p id="kisht"></p>
             <button class="btn btn-hero" id="btn">Click me</button>
         </div>
     </main>
     <!-- javascript -->
     <script src="app.js"></script>
+    <script>
+        function myfunction(){
+document.getElementById("kisht").innerHTML=" Try again!!!";
+document.getElementById("kisht").style.fontSize="50px";
+document.getElementById("kisht").style.color="red";
+        }
+    </script>
 </body>
 </html>
